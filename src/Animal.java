@@ -6,11 +6,14 @@ public class Animal {
 	public Animal() {
 		System.out.println("A new animal has been created!");
 	}
-	public String sleep() {
-		return "An animal sleeps...";
+	public String bark() {
+		return "An animal barks...";
 	}
 	public String eat() {
 		return "An animal eats...";
+	}
+	public String sleep() {
+	  return " a cat sleep";
 	}
 }
 
